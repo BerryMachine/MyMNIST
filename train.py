@@ -2,6 +2,8 @@ import numpy as np
 from model import My2LP
 import prep_data
 
+# TODO: Add matplotlib visualizer
+
 epochs = 10
 lr = 0.005
 batch = 128
