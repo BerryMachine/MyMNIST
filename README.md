@@ -22,4 +22,4 @@ python train.py
 
 **TO RUN:**
 
-In the works...
+python main.py

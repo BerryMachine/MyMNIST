@@ -20,7 +20,7 @@ OUT_SIZE = 10
 # A2 (10, batch) - softmax
 
 class My2LP:
-    def __init__(self, in_size=IN_SIZE, h_size=H_SIZE, out_size=OUT_SIZE, weight_path=None):
+    def __init__(self, weight_path=None, in_size=IN_SIZE, h_size=H_SIZE, out_size=OUT_SIZE):
         self.in_size = in_size
         self.h_size = h_size
         self.out_size = out_size
